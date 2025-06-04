@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang Web Đáp Ứng</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Chào Mừng Đến Với Trang Web Của Tôi</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Trang Chủ</a></li>
+      <li><a href="#about">Giới Thiệu</a></li>
+      <li><a href="#services">Dịch Vụ</a></li>
+      <li><a href="#contact">Liên Hệ</a></li>
+    </ul>
+  </nav>
+
+  <section id="home">
+    <h2>Trang Chủ</h2>
+    <img src="image.jpg" alt="Hình ảnh minh họa" class="responsive-img">
+    <p>Đây là phần giới thiệu về trang web của tôi.</p>
+  </section>
+
+  <section id="about">
+    <h2>Giới Thiệu</h2>
+    <p>Thông tin về tôi và mục tiêu của trang web này.</p>
+  </section>
+
+  <section id="services">
+    <h2>Dịch Vụ</h2>
+    <p>Danh sách các dịch vụ mà tôi cung cấp.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Liên Hệ</h2>
+    <p>Thông tin liên hệ của tôi.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Trang Web Của Tôi</p>
+  </footer>
+</body>
+</html>

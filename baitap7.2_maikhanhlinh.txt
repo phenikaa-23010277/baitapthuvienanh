@@ -1,0 +1,75 @@
+/* Thiết lập cơ bản */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #6200ea;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 20px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #6200ea;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Hình ảnh đáp ứng */
+.responsive-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Truy vấn phương tiện cho màn hình nhỏ */
+@media (max-width: 600px) {
+  nav ul {
+    text-align: left;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 5px 0;
+  }
+
+  section {
+    margin: 5px;
+  }
+}
